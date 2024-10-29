@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template encoding-version="1.3">
+    <description></description>
+    <groupId>f2c8ae3b-0190-1000-a71b-3241d5e7e66e</groupId>
+    <name>Bai1</name>
+    <snippet>
+        <processGroups>
+            <id>f84a089e-6bf4-30e7-0000-000000000000</id>
+            <parentGroupId>3eddaba8-a33a-3d7b-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>0.0</y>
+            </position>
+            <comments></comments>
+            <contents>
+                <connections>
+                    <id>238bdd52-7c7d-3709-0000-000000000000</id>
+                    <parentGroupId>f84a089e-6bf4-30e7-0000-000000000000</parentGroupId>
+                    <versionedComponentId>96f9f7eb-525b-3df1-9680-8375b832a821</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <bends>
+                        <x>-139.85443115234375</x>
+                        <y>1003.386962890625</y>
+                    </bends>
+                    <bends>
+                        <x>-115.85443115234375</x>
+                        <y>1059.386962890625</y>
+                    </bends>
+                    <destination>
+                        <groupId>f84a089e-6bf4-30e7-0000-000000000000</groupId>
+                        <id>adb9ff99-0719-3ba4-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>08e85b5c-347c-3a70-8c30-8cc0f964a255</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>failure</selectedRelationships>
+                    <source>
+                        <groupId>f84a089e-6bf4-30e7-0000-000000000000</groupId>
+                        <id>adb9ff99-0719-3ba4-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>08e85b5c-347c-3a70-8c30-8cc0f964a255</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>32b8d4e1-492d-340f-0000-000000000000</id>
+                    <parentGroupId>f84a089e-6bf4-30e7-0000-000000000000</parentGroupId>
+                    <versionedComponentId>85bfe70d-2523-3869-b511-0b06bc1745cf</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>f84a089e-6bf4-30e7-0000-000000000000</groupId>
+                        <id>adb9ff99-0719-3ba4-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>08e85b5c-347c-3a70-8c30-8cc0f964a255</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>failure</selectedRelationships>
+                    <source>
+                        <groupId>f84a089e-6bf4-30e7-0000-000000000000</groupId>
+                        <id>a3aba352-b3a7-3b96-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>eb42e319-3751-3409-905e-e045a16d0cf3</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>39c2ac2e-100d-3377-0000-000000000000</id>
+                    <parentGroupId>f84a089e-6bf4-30e7-0000-000000000000</parentGroupId>
+                    <versionedComponentId>5630fd33-5211-3506-a8fe-649fb79c4fa3</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <bends>
+                        <x>-155.85443115234375</x>
+                        <y>947.386962890625</y>
+                    </bends>
+                    <bends>
+                        <x>-75.85443115234375</x>
+                        <y>963.386962890625</y>
+                    </bends>
+                    <destination>
+                        <groupId>f84a089e-6bf4-30e7-0000-000000000000</groupId>
+                        <id>adb9ff99-0719-3ba4-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>08e85b5c-347c-3a70-8c30-8cc0f964a255</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>f84a089e-6bf4-30e7-0000-000000000000</groupId>
+                        <id>adb9ff99-0719-3ba4-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>08e85b5c-347c-3a70-8c30-8cc0f964a255</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>fa79ffa9-93b9-3378-0000-000000000000</id>
+                    <parentGroupId>f84a089e-6bf4-30e7-0000-000000000000</parentGroupId>
+                    <versionedComponentId>631a76ae-2445-3cd4-a003-be959fe96a31</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <bends>
+                        <x>-640.0</x>
+                        <y>776.0</y>
+                    </bends>
+                    <destination>
+                        <groupId>f84a089e-6bf4-30e7-0000-000000000000</groupId>
+                        <id>adb9ff99-0719-3ba4-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>08e85b5c-347c-3a70-8c30-8cc0f964a255</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>original</selectedRelationships>
+                    <source>
+                        <groupId>f84a089e-6bf4-30e7-0000-000000000000</groupId>
+                        <id>a3aba352-b3a7-3b96-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>eb42e319-3751-3409-905e-e045a16d0cf3</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>fa95bbee-59e2-3bd9-0000-000000000000</id>
+                    <parentGroupId>f84a089e-6bf4-30e7-0000-000000000000</parentGroupId>
+                    <versionedComponentId>f91ef61b-d1f7-37a8-9c41-bde240b126d8</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <bends>
+                        <x>24.0</x>
+                        <y>768.0</y>
+                    </bends>
+                    <destination>
+                        <groupId>f84a089e-6bf4-30e7-0000-000000000000</groupId>
+                        <id>adb9ff99-0719-3ba4-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>08e85b5c-347c-3a70-8c30-8cc0f964a255</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>f84a089e-6bf4-30e7-0000-000000000000</groupId>
+                        <id>a3aba352-b3a7-3b96-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>eb42e319-3751-3409-905e-e045a16d0cf3</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <processors>
+                    <id>a3aba352-b3a7-3b96-0000-000000000000</id>
+                    <parentGroupId>f84a089e-6bf4-30e7-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>-512.0</x>
+                        <y>512.0</y>
+                    </position>
+                    <versionedComponentId>eb42e319-3751-3409-905e-e045a16d0cf3</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-mongodb-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.16.3</version>
+                    </bundle>
+                    <config>
+                        <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>mongo-client-service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.mongodb.MongoDBClientService</identifiesControllerService>
+    <name>mongo-client-service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Mongo URI</key>
+<value>
+    <name>Mongo URI</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Mongo Database Name</key>
+<value>
+    <name>Mongo Database Name</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Mongo Collection Name</key>
+<value>
+    <name>Mongo Collection Name</name>
+</value>
+                            </entry>
+                            <entry>
+<key>ssl-context-service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
+    <name>ssl-context-service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>ssl-client-auth</key>
+<value>
+    <name>ssl-client-auth</name>
+</value>
+                            </entry>
+                            <entry>
+<key>json-type</key>
+<value>
+    <name>json-type</name>
+</value>
+                            </entry>
+                            <entry>
+<key>use-pretty-printing</key>
+<value>
+    <name>use-pretty-printing</name>
+</value>
+                            </entry>
+                            <entry>
+<key>mongo-charset</key>
+<value>
+    <name>mongo-charset</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Query</key>
+<value>
+    <name>Query</name>
+</value>
+                            </entry>
+                            <entry>
+<key>mongo-query-attribute</key>
+<value>
+    <name>mongo-query-attribute</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Projection</key>
+<value>
+    <name>Projection</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Sort</key>
+<value>
+    <name>Sort</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Limit</key>
+<value>
+    <name>Limit</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Batch Size</key>
+<value>
+    <name>Batch Size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>results-per-flowfile</key>
+<value>
+    <name>results-per-flowfile</name>
+</value>
+                            </entry>
+                            <entry>
+<key>mongo-date-format</key>
+<value>
+    <name>mongo-date-format</name>
+</value>
+                            </entry>
+                            <entry>
+<key>get-mongo-send-empty</key>
+<value>
+    <name>get-mongo-send-empty</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>mongo-client-service</key>
+                            </entry>
+                            <entry>
+<key>Mongo URI</key>
+<value>mongodb://localhost:27017/</value>
+                            </entry>
+                            <entry>
+<key>Mongo Database Name</key>
+<value>sic-crawl</value>
+                            </entry>
+                            <entry>
+<key>Mongo Collection Name</key>
+<value>lomart</value>
+                            </entry>
+                            <entry>
+<key>ssl-context-service</key>
+                            </entry>
+                            <entry>
+<key>ssl-client-auth</key>
+<value>REQUIRED</value>
+                            </entry>
+                            <entry>
+<key>json-type</key>
+<value>Extended</value>
+                            </entry>
+                            <entry>
+<key>use-pretty-printing</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>mongo-charset</key>
+<value>UTF-8</value>
+                            </entry>
+                            <entry>
+<key>Query</key>
+                            </entry>
+                            <entry>
+<key>mongo-query-attribute</key>
+                            </entry>
+                            <entry>
+<key>Projection</key>
+                            </entry>
+                            <entry>
+<key>Sort</key>
+                            </entry>
+                            <entry>
+<key>Limit</key>
+                            </entry>
+                            <entry>
+<key>Batch Size</key>
+                            </entry>
+                            <entry>
+<key>results-per-flowfile</key>
+                            </entry>
+                            <entry>
+<key>mongo-date-format</key>
+<value>yyyy-MM-dd'T'HH:mm:ss'Z'</value>
+                            </entry>
+                            <entry>
+<key>get-mongo-send-empty</key>
+<value>false</value>
+                            </entry>
+                        </properties>
+                        <retryCount>10</retryCount>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 1 0 ? * MON *</schedulingPeriod>
+                        <schedulingStrategy>CRON_DRIVEN</schedulingStrategy>
+                        <yieldDuration>5 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>GetMongo</name>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>failure</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>original</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <state>STOPPED</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.mongodb.GetMongo</type>
+                </processors>
+                <processors>
+                    <id>adb9ff99-0719-3ba4-0000-000000000000</id>
+                    <parentGroupId>f84a089e-6bf4-30e7-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>-608.0</x>
+                        <y>928.0</y>
+                    </position>
+                    <versionedComponentId>08e85b5c-347c-3a70-8c30-8cc0f964a255</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-hadoop-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.16.3</version>
+                    </bundle>
+                    <config>
+                        <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Hadoop Configuration Resources</key>
+<value>
+    <name>Hadoop Configuration Resources</name>
+</value>
+                            </entry>
+                            <entry>
+<key>kerberos-credentials-service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.kerberos.KerberosCredentialsService</identifiesControllerService>
+    <name>kerberos-credentials-service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>kerberos-user-service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.kerberos.KerberosUserService</identifiesControllerService>
+    <name>kerberos-user-service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Kerberos Principal</key>
+<value>
+    <name>Kerberos Principal</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Kerberos Keytab</key>
+<value>
+    <name>Kerberos Keytab</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Kerberos Password</key>
+<value>
+    <name>Kerberos Password</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Kerberos Relogin Period</key>
+<value>
+    <name>Kerberos Relogin Period</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Additional Classpath Resources</key>
+<value>
+    <name>Additional Classpath Resources</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Directory</key>
+<value>
+    <name>Directory</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Conflict Resolution Strategy</key>
+<value>
+    <name>Conflict Resolution Strategy</name>
+</value>
+                            </entry>
+                            <entry>
+<key>writing-strategy</key>
+<value>
+    <name>writing-strategy</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Block Size</key>
+<value>
+    <name>Block Size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>IO Buffer Size</key>
+<value>
+    <name>IO Buffer Size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Replication</key>
+<value>
+    <name>Replication</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Permissions umask</key>
+<value>
+    <name>Permissions umask</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Remote Owner</key>
+<value>
+    <name>Remote Owner</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Remote Group</key>
+<value>
+    <name>Remote Group</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Compression codec</key>
+<value>
+    <name>Compression codec</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Ignore Locality</key>
+<value>
+    <name>Ignore Locality</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Hadoop Configuration Resources</key>
+<value>/home/toan/hadoop/etc/hadoop/core-site.xml,/home/toan/hadoop/etc/hadoop/hdfs-site.xml</value>
+                            </entry>
+                            <entry>
+<key>kerberos-credentials-service</key>
+                            </entry>
+                            <entry>
+<key>kerberos-user-service</key>
+                            </entry>
+                            <entry>
+<key>Kerberos Principal</key>
+                            </entry>
+                            <entry>
+<key>Kerberos Keytab</key>
+                            </entry>
+                            <entry>
+<key>Kerberos Password</key>
+                            </entry>
+                            <entry>
+<key>Kerberos Relogin Period</key>
+<value>4 hours</value>
+                            </entry>
+                            <entry>
+<key>Additional Classpath Resources</key>
+                            </entry>
+                            <entry>
+<key>Directory</key>
+<value>/mongo/sic-crawl/lomart</value>
+                            </entry>
+                            <entry>
+<key>Conflict Resolution Strategy</key>
+<value>fail</value>
+                            </entry>
+                            <entry>
+<key>writing-strategy</key>
+<value>writeAndRename</value>
+                            </entry>
+                            <entry>
+<key>Block Size</key>
+                            </entry>
+                            <entry>
+<key>IO Buffer Size</key>
+                            </entry>
+                            <entry>
+<key>Replication</key>
+                            </entry>
+                            <entry>
+<key>Permissions umask</key>
+                            </entry>
+                            <entry>
+<key>Remote Owner</key>
+                            </entry>
+                            <entry>
+<key>Remote Group</key>
+                            </entry>
+                            <entry>
+<key>Compression codec</key>
+<value>NONE</value>
+                            </entry>
+                            <entry>
+<key>Ignore Locality</key>
+<value>false</value>
+                            </entry>
+                        </properties>
+                        <retryCount>10</retryCount>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>PutHDFS</name>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>failure</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <state>STOPPED</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.hadoop.PutHDFS</type>
+                </processors>
+            </contents>
+            <defaultBackPressureDataSizeThreshold>1 GB</defaultBackPressureDataSizeThreshold>
+            <defaultBackPressureObjectThreshold>10000</defaultBackPressureObjectThreshold>
+            <defaultFlowFileExpiration>0 sec</defaultFlowFileExpiration>
+            <flowfileConcurrency>UNBOUNDED</flowfileConcurrency>
+            <flowfileOutboundPolicy>STREAM_WHEN_AVAILABLE</flowfileOutboundPolicy>
+            <name>Bai1</name>
+            <variables/>
+        </processGroups>
+    </snippet>
+    <timestamp>08/12/2024 23:13:14 ICT</timestamp>
+</template>
